@@ -10,17 +10,6 @@ resource "azurerm_resource_group" "RG2" {
 
 }
 
-resource "azurerm_resource_group" "RG3" {
-  name     = "MastecRG3"
-  location = "Central India"
-
-}
-
-resource "azurerm_resource_group" "RG4" {
-  name     = "MastecRG4"
-  location = "Central India"
-
-}
 
 resource "azurerm_storage_account" "storageaccount1" {
   name                     = "mastecstorageac"
